@@ -1,0 +1,140 @@
+body{
+    background-color: mediumpurple;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    text-shadow: darkgreen 1px 2px 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-shadow: dimgray 1px 2px 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h3{
+    text-align: center;
+    text-shadow: white 1px 1px 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:30%;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+}
+.navbar a{
+    color: gray;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+ .navbar a:hover{
+     background-color: hsl(0, 0%, 10%);
+ }
+.navbar li{
+    float:left;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:100px;
+}
+.card{
+    width:330px;
+    background-color: dimgray;
+    border-radius:8px;
+    margin:20px;
+}
+.card img{
+width: 300px;
+height: auto;
+}
+img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.skill{
+    width:400px
+    margin: 60px auto;
+    color:#fff;
+    padding:20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25),0 10px 10px rgba(0, 0, 0, 22);
+}
+.skill li{
+    margin:20px;
+    padding:10px;
+}
+.bar{
+    background:#353b48;
+    display:block;
+    height:20px;
+    border:1px solid rgba(0, 0, 0.3);
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 1px 3px rgba(0, 0,0.12),0 1px 2px rgba(0, 0, 0, 24);
+    transition:all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(256,103,103,1)100%);
+}
+.Html{
+    width: 80%;
+    animation: Html 4s;
+}
+.Css{
+    width: 70%;
+    animation: Css 4s;
+}
+.Python{
+    width: 50%;
+    animation: Python 4s;
+}
+.JavaScript{
+    width: 35%;
+    animation: JavaScript 4s;
+}
+@keyframes Html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes Css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes Python{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:40;
+    }
+}
+@keyframes JavaScript{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:35%;
+    }
+}
+
+
+
